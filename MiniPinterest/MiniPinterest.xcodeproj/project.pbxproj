@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7A349341D50F247005C4EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349331D50F247005C4EA5 /* AppDelegate.swift */; };
-		F7A349361D50F247005C4EA5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349351D50F247005C4EA5 /* FirstViewController.swift */; };
-		F7A349381D50F247005C4EA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349371D50F247005C4EA5 /* SecondViewController.swift */; };
-		F7A3493B1D50F247005C4EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A349391D50F247005C4EA5 /* Main.storyboard */; };
-		F7A3493D1D50F247005C4EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A3493C1D50F247005C4EA5 /* Assets.xcassets */; };
-		F7A349401D50F247005C4EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A3493E1D50F247005C4EA5 /* LaunchScreen.storyboard */; };
-		F7A3494B1D50F247005C4EA5 /* MiniPinterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3494A1D50F247005C4EA5 /* MiniPinterestTests.swift */; };
-		F7A349561D50F247005C4EA5 /* MiniPinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349551D50F247005C4EA5 /* MiniPinterestUITests.swift */; };
+		F7A349701D50F917005C4EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A3496F1D50F917005C4EA5 /* AppDelegate.swift */; };
+		F7A349721D50F917005C4EA5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349711D50F917005C4EA5 /* FirstViewController.swift */; };
+		F7A349741D50F917005C4EA5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349731D50F917005C4EA5 /* SecondViewController.swift */; };
+		F7A349771D50F917005C4EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A349751D50F917005C4EA5 /* Main.storyboard */; };
+		F7A349791D50F917005C4EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A349781D50F917005C4EA5 /* Assets.xcassets */; };
+		F7A3497C1D50F917005C4EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A3497A1D50F917005C4EA5 /* LaunchScreen.storyboard */; };
+		F7A349871D50F917005C4EA5 /* MiniPinterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349861D50F917005C4EA5 /* MiniPinterestTests.swift */; };
+		F7A349921D50F917005C4EA5 /* MiniPinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A349911D50F917005C4EA5 /* MiniPinterestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F7A349471D50F247005C4EA5 /* PBXContainerItemProxy */ = {
+		F7A349831D50F917005C4EA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7A349281D50F247005C4EA5 /* Project object */;
+			containerPortal = F7A349641D50F917005C4EA5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7A3492F1D50F247005C4EA5;
+			remoteGlobalIDString = F7A3496B1D50F917005C4EA5;
 			remoteInfo = MiniPinterest;
 		};
-		F7A349521D50F247005C4EA5 /* PBXContainerItemProxy */ = {
+		F7A3498E1D50F917005C4EA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7A349281D50F247005C4EA5 /* Project object */;
+			containerPortal = F7A349641D50F917005C4EA5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7A3492F1D50F247005C4EA5;
+			remoteGlobalIDString = F7A3496B1D50F917005C4EA5;
 			remoteInfo = MiniPinterest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7A349301D50F247005C4EA5 /* MiniPinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniPinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A349331D50F247005C4EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7A349351D50F247005C4EA5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F7A349371D50F247005C4EA5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F7A3493A1D50F247005C4EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7A3493C1D50F247005C4EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7A3493F1D50F247005C4EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7A349411D50F247005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A349461D50F247005C4EA5 /* MiniPinterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPinterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A3494A1D50F247005C4EA5 /* MiniPinterestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPinterestTests.swift; sourceTree = "<group>"; };
-		F7A3494C1D50F247005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A349511D50F247005C4EA5 /* MiniPinterestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPinterestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A349551D50F247005C4EA5 /* MiniPinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPinterestUITests.swift; sourceTree = "<group>"; };
-		F7A349571D50F247005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A3496C1D50F917005C4EA5 /* MiniPinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniPinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A3496F1D50F917005C4EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7A349711D50F917005C4EA5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F7A349731D50F917005C4EA5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F7A349761D50F917005C4EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A349781D50F917005C4EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A3497B1D50F917005C4EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A3497D1D50F917005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A349821D50F917005C4EA5 /* MiniPinterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPinterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A349861D50F917005C4EA5 /* MiniPinterestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPinterestTests.swift; sourceTree = "<group>"; };
+		F7A349881D50F917005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A3498D1D50F917005C4EA5 /* MiniPinterestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniPinterestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A349911D50F917005C4EA5 /* MiniPinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPinterestUITests.swift; sourceTree = "<group>"; };
+		F7A349931D50F917005C4EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F7A3492D1D50F247005C4EA5 /* Frameworks */ = {
+		F7A349691D50F917005C4EA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A349431D50F247005C4EA5 /* Frameworks */ = {
+		F7A3497F1D50F917005C4EA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A3494E1D50F247005C4EA5 /* Frameworks */ = {
+		F7A3498A1D50F917005C4EA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7A349271D50F247005C4EA5 = {
+		F7A349631D50F917005C4EA5 = {
 			isa = PBXGroup;
 			children = (
-				F7A349321D50F247005C4EA5 /* MiniPinterest */,
-				F7A349491D50F247005C4EA5 /* MiniPinterestTests */,
-				F7A349541D50F247005C4EA5 /* MiniPinterestUITests */,
-				F7A349311D50F247005C4EA5 /* Products */,
+				F7A3496E1D50F917005C4EA5 /* MiniPinterest */,
+				F7A349851D50F917005C4EA5 /* MiniPinterestTests */,
+				F7A349901D50F917005C4EA5 /* MiniPinterestUITests */,
+				F7A3496D1D50F917005C4EA5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F7A349311D50F247005C4EA5 /* Products */ = {
+		F7A3496D1D50F917005C4EA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7A349301D50F247005C4EA5 /* MiniPinterest.app */,
-				F7A349461D50F247005C4EA5 /* MiniPinterestTests.xctest */,
-				F7A349511D50F247005C4EA5 /* MiniPinterestUITests.xctest */,
+				F7A3496C1D50F917005C4EA5 /* MiniPinterest.app */,
+				F7A349821D50F917005C4EA5 /* MiniPinterestTests.xctest */,
+				F7A3498D1D50F917005C4EA5 /* MiniPinterestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7A349321D50F247005C4EA5 /* MiniPinterest */ = {
+		F7A3496E1D50F917005C4EA5 /* MiniPinterest */ = {
 			isa = PBXGroup;
 			children = (
-				F7A349331D50F247005C4EA5 /* AppDelegate.swift */,
-				F7A349351D50F247005C4EA5 /* FirstViewController.swift */,
-				F7A349371D50F247005C4EA5 /* SecondViewController.swift */,
-				F7A349391D50F247005C4EA5 /* Main.storyboard */,
-				F7A3493C1D50F247005C4EA5 /* Assets.xcassets */,
-				F7A3493E1D50F247005C4EA5 /* LaunchScreen.storyboard */,
-				F7A349411D50F247005C4EA5 /* Info.plist */,
+				F7A3496F1D50F917005C4EA5 /* AppDelegate.swift */,
+				F7A349711D50F917005C4EA5 /* FirstViewController.swift */,
+				F7A349731D50F917005C4EA5 /* SecondViewController.swift */,
+				F7A349751D50F917005C4EA5 /* Main.storyboard */,
+				F7A349781D50F917005C4EA5 /* Assets.xcassets */,
+				F7A3497A1D50F917005C4EA5 /* LaunchScreen.storyboard */,
+				F7A3497D1D50F917005C4EA5 /* Info.plist */,
 			);
 			path = MiniPinterest;
 			sourceTree = "<group>";
 		};
-		F7A349491D50F247005C4EA5 /* MiniPinterestTests */ = {
+		F7A349851D50F917005C4EA5 /* MiniPinterestTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7A3494A1D50F247005C4EA5 /* MiniPinterestTests.swift */,
-				F7A3494C1D50F247005C4EA5 /* Info.plist */,
+				F7A349861D50F917005C4EA5 /* MiniPinterestTests.swift */,
+				F7A349881D50F917005C4EA5 /* Info.plist */,
 			);
 			path = MiniPinterestTests;
 			sourceTree = "<group>";
 		};
-		F7A349541D50F247005C4EA5 /* MiniPinterestUITests */ = {
+		F7A349901D50F917005C4EA5 /* MiniPinterestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F7A349551D50F247005C4EA5 /* MiniPinterestUITests.swift */,
-				F7A349571D50F247005C4EA5 /* Info.plist */,
+				F7A349911D50F917005C4EA5 /* MiniPinterestUITests.swift */,
+				F7A349931D50F917005C4EA5 /* Info.plist */,
 			);
 			path = MiniPinterestUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7A3492F1D50F247005C4EA5 /* MiniPinterest */ = {
+		F7A3496B1D50F917005C4EA5 /* MiniPinterest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A3495A1D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterest" */;
+			buildConfigurationList = F7A349961D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterest" */;
 			buildPhases = (
-				F7A3492C1D50F247005C4EA5 /* Sources */,
-				F7A3492D1D50F247005C4EA5 /* Frameworks */,
-				F7A3492E1D50F247005C4EA5 /* Resources */,
+				F7A349681D50F917005C4EA5 /* Sources */,
+				F7A349691D50F917005C4EA5 /* Frameworks */,
+				F7A3496A1D50F917005C4EA5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +145,69 @@
 			);
 			name = MiniPinterest;
 			productName = MiniPinterest;
-			productReference = F7A349301D50F247005C4EA5 /* MiniPinterest.app */;
+			productReference = F7A3496C1D50F917005C4EA5 /* MiniPinterest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7A349451D50F247005C4EA5 /* MiniPinterestTests */ = {
+		F7A349811D50F917005C4EA5 /* MiniPinterestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A3495D1D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestTests" */;
+			buildConfigurationList = F7A349991D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestTests" */;
 			buildPhases = (
-				F7A349421D50F247005C4EA5 /* Sources */,
-				F7A349431D50F247005C4EA5 /* Frameworks */,
-				F7A349441D50F247005C4EA5 /* Resources */,
+				F7A3497E1D50F917005C4EA5 /* Sources */,
+				F7A3497F1D50F917005C4EA5 /* Frameworks */,
+				F7A349801D50F917005C4EA5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7A349481D50F247005C4EA5 /* PBXTargetDependency */,
+				F7A349841D50F917005C4EA5 /* PBXTargetDependency */,
 			);
 			name = MiniPinterestTests;
 			productName = MiniPinterestTests;
-			productReference = F7A349461D50F247005C4EA5 /* MiniPinterestTests.xctest */;
+			productReference = F7A349821D50F917005C4EA5 /* MiniPinterestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F7A349501D50F247005C4EA5 /* MiniPinterestUITests */ = {
+		F7A3498C1D50F917005C4EA5 /* MiniPinterestUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A349601D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestUITests" */;
+			buildConfigurationList = F7A3499C1D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestUITests" */;
 			buildPhases = (
-				F7A3494D1D50F247005C4EA5 /* Sources */,
-				F7A3494E1D50F247005C4EA5 /* Frameworks */,
-				F7A3494F1D50F247005C4EA5 /* Resources */,
+				F7A349891D50F917005C4EA5 /* Sources */,
+				F7A3498A1D50F917005C4EA5 /* Frameworks */,
+				F7A3498B1D50F917005C4EA5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7A349531D50F247005C4EA5 /* PBXTargetDependency */,
+				F7A3498F1D50F917005C4EA5 /* PBXTargetDependency */,
 			);
 			name = MiniPinterestUITests;
 			productName = MiniPinterestUITests;
-			productReference = F7A349511D50F247005C4EA5 /* MiniPinterestUITests.xctest */;
+			productReference = F7A3498D1D50F917005C4EA5 /* MiniPinterestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F7A349281D50F247005C4EA5 /* Project object */ = {
+		F7A349641D50F917005C4EA5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = PinterestLittleTiger;
 				TargetAttributes = {
-					F7A3492F1D50F247005C4EA5 = {
+					F7A3496B1D50F917005C4EA5 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					F7A349451D50F247005C4EA5 = {
+					F7A349811D50F917005C4EA5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = F7A3492F1D50F247005C4EA5;
+						TestTargetID = F7A3496B1D50F917005C4EA5;
 					};
-					F7A349501D50F247005C4EA5 = {
+					F7A3498C1D50F917005C4EA5 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = F7A3492F1D50F247005C4EA5;
+						TestTargetID = F7A3496B1D50F917005C4EA5;
 					};
 				};
 			};
-			buildConfigurationList = F7A3492B1D50F247005C4EA5 /* Build configuration list for PBXProject "MiniPinterest" */;
+			buildConfigurationList = F7A349671D50F917005C4EA5 /* Build configuration list for PBXProject "MiniPinterest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F7A349271D50F247005C4EA5;
-			productRefGroup = F7A349311D50F247005C4EA5 /* Products */;
+			mainGroup = F7A349631D50F917005C4EA5;
+			productRefGroup = F7A3496D1D50F917005C4EA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7A3492F1D50F247005C4EA5 /* MiniPinterest */,
-				F7A349451D50F247005C4EA5 /* MiniPinterestTests */,
-				F7A349501D50F247005C4EA5 /* MiniPinterestUITests */,
+				F7A3496B1D50F917005C4EA5 /* MiniPinterest */,
+				F7A349811D50F917005C4EA5 /* MiniPinterestTests */,
+				F7A3498C1D50F917005C4EA5 /* MiniPinterestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F7A3492E1D50F247005C4EA5 /* Resources */ = {
+		F7A3496A1D50F917005C4EA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A349401D50F247005C4EA5 /* LaunchScreen.storyboard in Resources */,
-				F7A3493D1D50F247005C4EA5 /* Assets.xcassets in Resources */,
-				F7A3493B1D50F247005C4EA5 /* Main.storyboard in Resources */,
+				F7A3497C1D50F917005C4EA5 /* LaunchScreen.storyboard in Resources */,
+				F7A349791D50F917005C4EA5 /* Assets.xcassets in Resources */,
+				F7A349771D50F917005C4EA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A349441D50F247005C4EA5 /* Resources */ = {
+		F7A349801D50F917005C4EA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A3494F1D50F247005C4EA5 /* Resources */ = {
+		F7A3498B1D50F917005C4EA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F7A3492C1D50F247005C4EA5 /* Sources */ = {
+		F7A349681D50F917005C4EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A349381D50F247005C4EA5 /* SecondViewController.swift in Sources */,
-				F7A349341D50F247005C4EA5 /* AppDelegate.swift in Sources */,
-				F7A349361D50F247005C4EA5 /* FirstViewController.swift in Sources */,
+				F7A349741D50F917005C4EA5 /* SecondViewController.swift in Sources */,
+				F7A349701D50F917005C4EA5 /* AppDelegate.swift in Sources */,
+				F7A349721D50F917005C4EA5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A349421D50F247005C4EA5 /* Sources */ = {
+		F7A3497E1D50F917005C4EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A3494B1D50F247005C4EA5 /* MiniPinterestTests.swift in Sources */,
+				F7A349871D50F917005C4EA5 /* MiniPinterestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7A3494D1D50F247005C4EA5 /* Sources */ = {
+		F7A349891D50F917005C4EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A349561D50F247005C4EA5 /* MiniPinterestUITests.swift in Sources */,
+				F7A349921D50F917005C4EA5 /* MiniPinterestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7A349481D50F247005C4EA5 /* PBXTargetDependency */ = {
+		F7A349841D50F917005C4EA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7A3492F1D50F247005C4EA5 /* MiniPinterest */;
-			targetProxy = F7A349471D50F247005C4EA5 /* PBXContainerItemProxy */;
+			target = F7A3496B1D50F917005C4EA5 /* MiniPinterest */;
+			targetProxy = F7A349831D50F917005C4EA5 /* PBXContainerItemProxy */;
 		};
-		F7A349531D50F247005C4EA5 /* PBXTargetDependency */ = {
+		F7A3498F1D50F917005C4EA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7A3492F1D50F247005C4EA5 /* MiniPinterest */;
-			targetProxy = F7A349521D50F247005C4EA5 /* PBXContainerItemProxy */;
+			target = F7A3496B1D50F917005C4EA5 /* MiniPinterest */;
+			targetProxy = F7A3498E1D50F917005C4EA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7A349391D50F247005C4EA5 /* Main.storyboard */ = {
+		F7A349751D50F917005C4EA5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7A3493A1D50F247005C4EA5 /* Base */,
+				F7A349761D50F917005C4EA5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F7A3493E1D50F247005C4EA5 /* LaunchScreen.storyboard */ = {
+		F7A3497A1D50F917005C4EA5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7A3493F1D50F247005C4EA5 /* Base */,
+				F7A3497B1D50F917005C4EA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F7A349581D50F247005C4EA5 /* Debug */ = {
+		F7A349941D50F917005C4EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +362,7 @@
 			};
 			name = Debug;
 		};
-		F7A349591D50F247005C4EA5 /* Release */ = {
+		F7A349951D50F917005C4EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,7 +401,7 @@
 			};
 			name = Release;
 		};
-		F7A3495B1D50F247005C4EA5 /* Debug */ = {
+		F7A349971D50F917005C4EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -412,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		F7A3495C1D50F247005C4EA5 /* Release */ = {
+		F7A349981D50F917005C4EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -423,7 +423,7 @@
 			};
 			name = Release;
 		};
-		F7A3495E1D50F247005C4EA5 /* Debug */ = {
+		F7A3499A1D50F917005C4EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -435,7 +435,7 @@
 			};
 			name = Debug;
 		};
-		F7A3495F1D50F247005C4EA5 /* Release */ = {
+		F7A3499B1D50F917005C4EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,7 +447,7 @@
 			};
 			name = Release;
 		};
-		F7A349611D50F247005C4EA5 /* Debug */ = {
+		F7A3499D1D50F917005C4EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MiniPinterestUITests/Info.plist;
@@ -458,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		F7A349621D50F247005C4EA5 /* Release */ = {
+		F7A3499E1D50F917005C4EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = MiniPinterestUITests/Info.plist;
@@ -472,40 +472,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7A3492B1D50F247005C4EA5 /* Build configuration list for PBXProject "MiniPinterest" */ = {
+		F7A349671D50F917005C4EA5 /* Build configuration list for PBXProject "MiniPinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A349581D50F247005C4EA5 /* Debug */,
-				F7A349591D50F247005C4EA5 /* Release */,
+				F7A349941D50F917005C4EA5 /* Debug */,
+				F7A349951D50F917005C4EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7A3495A1D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterest" */ = {
+		F7A349961D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A3495B1D50F247005C4EA5 /* Debug */,
-				F7A3495C1D50F247005C4EA5 /* Release */,
+				F7A349971D50F917005C4EA5 /* Debug */,
+				F7A349981D50F917005C4EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F7A3495D1D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestTests" */ = {
+		F7A349991D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A3495E1D50F247005C4EA5 /* Debug */,
-				F7A3495F1D50F247005C4EA5 /* Release */,
+				F7A3499A1D50F917005C4EA5 /* Debug */,
+				F7A3499B1D50F917005C4EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F7A349601D50F247005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestUITests" */ = {
+		F7A3499C1D50F917005C4EA5 /* Build configuration list for PBXNativeTarget "MiniPinterestUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7A349611D50F247005C4EA5 /* Debug */,
-				F7A349621D50F247005C4EA5 /* Release */,
+				F7A3499D1D50F917005C4EA5 /* Debug */,
+				F7A3499E1D50F917005C4EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F7A349281D50F247005C4EA5 /* Project object */;
+	rootObject = F7A349641D50F917005C4EA5 /* Project object */;
 }
