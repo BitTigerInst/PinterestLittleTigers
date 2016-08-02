@@ -2,7 +2,7 @@
 //  MiniPinterestTests.swift
 //  MiniPinterestTests
 //
-//  Created by 吴耀洪 on 16/8/2.
+//  Created by 吴耀洪 on 16/8/3.
 //  Copyright © 2016年 PinterestLittleTiger. All rights reserved.
 //
 

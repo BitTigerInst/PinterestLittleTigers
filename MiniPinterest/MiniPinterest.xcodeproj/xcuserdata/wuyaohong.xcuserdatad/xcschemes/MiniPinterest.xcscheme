@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7A3496B1D50F917005C4EA5"
+               BlueprintIdentifier = "F7A349A71D50FC5F005C4EA5"
                BuildableName = "MiniPinterest.app"
                BlueprintName = "MiniPinterest"
                ReferencedContainer = "container:MiniPinterest.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7A349811D50F917005C4EA5"
+               BlueprintIdentifier = "F7A349BD1D50FC5F005C4EA5"
                BuildableName = "MiniPinterestTests.xctest"
                BlueprintName = "MiniPinterestTests"
                ReferencedContainer = "container:MiniPinterest.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7A3498C1D50F917005C4EA5"
+               BlueprintIdentifier = "F7A349C81D50FC5F005C4EA5"
                BuildableName = "MiniPinterestUITests.xctest"
                BlueprintName = "MiniPinterestUITests"
                ReferencedContainer = "container:MiniPinterest.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7A3496B1D50F917005C4EA5"
+            BlueprintIdentifier = "F7A349A71D50FC5F005C4EA5"
             BuildableName = "MiniPinterest.app"
             BlueprintName = "MiniPinterest"
             ReferencedContainer = "container:MiniPinterest.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7A3496B1D50F917005C4EA5"
+            BlueprintIdentifier = "F7A349A71D50FC5F005C4EA5"
             BuildableName = "MiniPinterest.app"
             BlueprintName = "MiniPinterest"
             ReferencedContainer = "container:MiniPinterest.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F7A3496B1D50F917005C4EA5"
+            BlueprintIdentifier = "F7A349A71D50FC5F005C4EA5"
             BuildableName = "MiniPinterest.app"
             BlueprintName = "MiniPinterest"
             ReferencedContainer = "container:MiniPinterest.xcodeproj">
