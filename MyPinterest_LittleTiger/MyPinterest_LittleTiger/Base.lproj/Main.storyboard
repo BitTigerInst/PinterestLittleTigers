@@ -224,7 +224,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="749" height="504"/>
+        <image name="Image" width="1498" height="1008"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
