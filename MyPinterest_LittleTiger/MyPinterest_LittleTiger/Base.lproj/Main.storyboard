@@ -140,7 +140,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="User" image="second" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="User" image="User" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -176,6 +176,9 @@
                                 <state key="normal" title="Edit Account">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dHr-tk-HsD" kind="show" id="aUT-df-hxe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHN-Wh-ejf">
                                 <rect key="frame" x="10" y="121" width="81" height="30"/>
@@ -186,6 +189,9 @@
                                 <state key="normal" title="Edit Profile">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="YlW-rd-Cdq" kind="show" id="QFP-Ae-cil"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvp-r0-UAr">
                                 <rect key="frame" x="10" y="183" width="55" height="30"/>
@@ -214,11 +220,56 @@
                             <constraint firstItem="1Gl-LM-0qf" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="lqh-Bw-s8W"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="Settings" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="731" y="339"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WyU-Zk-f7w">
+            <objects>
+                <viewController id="dHr-tk-HsD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mIB-uT-8OC"/>
+                        <viewControllerLayoutGuide type="bottom" id="N1s-Kw-Ylo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="brj-HW-aU3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3po-6Y-X1u">
+                                <rect key="frame" x="73" y="76" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Jl-qh-Oxi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUp-J8-seV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1452" y="-41"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b4E-kV-fas">
+            <objects>
+                <viewController id="YlW-rd-Cdq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Q0-7w-4xb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qyh-UN-8dX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1X6-AX-lto">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rMl-ZB-bS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1424" y="641"/>
         </scene>
         <!--Search-->
         <scene sceneID="ymh-pw-8x9">
@@ -233,7 +284,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="first" id="uwK-2A-E2n"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="Search" id="uwK-2A-E2n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hSn-se-0sH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -257,12 +308,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-80" y="96"/>
         </scene>
     </scenes>
     <resources>
         <image name="Image" width="1498" height="1008"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="Search" width="30" height="30"/>
+        <image name="Settings" width="30" height="30"/>
+        <image name="User" width="30" height="30"/>
     </resources>
 </document>
