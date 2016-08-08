@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E13446781D5085E000E21405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446771D5085E000E21405 /* AppDelegate.swift */; };
-		E134467A1D5085E000E21405 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446791D5085E000E21405 /* FirstViewController.swift */; };
-		E134467C1D5085E000E21405 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134467B1D5085E000E21405 /* SecondViewController.swift */; };
+		E134467A1D5085E000E21405 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446791D5085E000E21405 /* UserViewController.swift */; };
+		E134467C1D5085E000E21405 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134467B1D5085E000E21405 /* SettingsViewController.swift */; };
 		E134467F1D5085E000E21405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E134467D1D5085E000E21405 /* Main.storyboard */; };
 		E13446811D5085E000E21405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13446801D5085E000E21405 /* Assets.xcassets */; };
 		E13446841D5085E100E21405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13446821D5085E100E21405 /* LaunchScreen.storyboard */; };
 		E134468F1D5085E100E21405 /* MyPinterest_LittleTigerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134468E1D5085E100E21405 /* MyPinterest_LittleTigerTests.swift */; };
 		E134469A1D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446991D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift */; };
+		F785567F1D58336000354B3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785567E1D58336000354B3B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 /* Begin PBXFileReference section */
 		E13446741D5085E000E21405 /* MyPinterest_LittleTiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPinterest_LittleTiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13446771D5085E000E21405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E13446791D5085E000E21405 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E134467B1D5085E000E21405 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E13446791D5085E000E21405 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E134467B1D5085E000E21405 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E134467E1D5085E000E21405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E13446801D5085E000E21405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E13446831D5085E100E21405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		E13446951D5085E100E21405 /* MyPinterest_LittleTigerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPinterest_LittleTigerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13446991D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinterest_LittleTigerUITests.swift; sourceTree = "<group>"; };
 		E134469B1D5085E100E21405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F785567E1D58336000354B3B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				E13446771D5085E000E21405 /* AppDelegate.swift */,
-				E13446791D5085E000E21405 /* FirstViewController.swift */,
-				E134467B1D5085E000E21405 /* SecondViewController.swift */,
+				E13446791D5085E000E21405 /* UserViewController.swift */,
+				F785567E1D58336000354B3B /* SearchViewController.swift */,
+				E134467B1D5085E000E21405 /* SettingsViewController.swift */,
 				E134467D1D5085E000E21405 /* Main.storyboard */,
 				E13446801D5085E000E21405 /* Assets.xcassets */,
 				E13446821D5085E100E21405 /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E134467C1D5085E000E21405 /* SecondViewController.swift in Sources */,
+				E134467C1D5085E000E21405 /* SettingsViewController.swift in Sources */,
 				E13446781D5085E000E21405 /* AppDelegate.swift in Sources */,
-				E134467A1D5085E000E21405 /* FirstViewController.swift in Sources */,
+				F785567F1D58336000354B3B /* SearchViewController.swift in Sources */,
+				E134467A1D5085E000E21405 /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				E13446A01D5085E100E21405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E13446A11D5085E100E21405 /* Build configuration list for PBXNativeTarget "MyPinterest_LittleTigerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				E13446A31D5085E100E21405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E13446A41D5085E100E21405 /* Build configuration list for PBXNativeTarget "MyPinterest_LittleTigerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				E13446A61D5085E100E21405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
