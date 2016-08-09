@@ -21,7 +21,11 @@ FUTURE PLAN
 1) Flickr server
 2) FlickrKit
 
-2 design infinite scolling
+2 get the hang of swift and JSON
+1) swift is the official language by Apple.
+2) JSON is short for JavaScript Object Notation, used for storing data from Flickr server before them being displayed
 
-3 design user database
+3 design infinite scolling
+
+4 design user database
 
