@@ -16,28 +16,30 @@ login to Flickr server using Yahoo account, and then view the everyday recommend
 If necessary, we can use swift and Object C together
 see the fundamentals of swift here: https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
 
+4 some familiarity with the two demos(API kits):
+1) SwiftFlickrSearch
+2) FlickrKit
+how to use FlickrKit via Cocoapods
+(1) install command line developer tools for Xcode(before installing Cocoapods)
+(2) install Cocoapods(before installing FlickrKit)
+(3) update to the lastest ruby
+(4) install FlickrKit(using Cocoapods Installation)
+
 ----------------------------------------------------------------------------------------------------------------
 FUTURE PLAN
-1 be familiar with the two demos(API kits):
-1) Flickr server
-2) FlickrKit
-
-2 get the hang of swift and JSON
+1 get the hang of swift and JSON
 1) swift is the official language by Apple.
 2) JSON is short for JavaScript Object Notation, used for storing data from Flickr server before them being displayed.
 JSON is built on two structures:
 (1) A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
 (2) An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
 
-
-
-3 design infinite scolling--roughly four steps
+2 design infinite scolling--roughly four steps
 1) show basic content of one page
 2) when the user scrolls down to the end of the page , call a function to load more data
 from server and append data to the displaying page
 3) if there are newer posts, return them 
 4) when all the data is shown, stop the process and tell the user all data has been viewed.
 
-
-4 design user database
+3 design user database
 
