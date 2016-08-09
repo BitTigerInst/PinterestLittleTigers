@@ -13,7 +13,8 @@ search photos from flickr server and display them
 login to Flickr server using Yahoo account, and then view the everyday recommended pictures
 
 3 the swift language is choosen
-If necessary, we can use Swift and Object C together
+If necessary, we can use swift and Object C together
+see the fundamentals of swift here: https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
 
 ----------------------------------------------------------------------------------------------------------------
 FUTURE PLAN
