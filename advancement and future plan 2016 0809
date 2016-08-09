@@ -40,6 +40,7 @@ JSON is built on two structures:
 from server and append data to the displaying page
 3) if there are newer posts, return them 
 4) when all the data is shown, stop the process and tell the user all data has been viewed.
+Also noteworthy is the fact that we will try to use multithreads(NSOperation, NSOperationQueue) to improve user experience and evade stagant UI.
 
 3 design user database
 
