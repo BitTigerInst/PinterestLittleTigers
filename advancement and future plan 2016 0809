@@ -1,4 +1,5 @@
 
+----------------------------------------------------------------------------------------------------------------
 ADVANCEMENT
 1 the following layouts have been designed
 1) search scenario
@@ -14,6 +15,7 @@ login to Flickr server using Yahoo account, and then view the everyday recommend
 3 the swift language is choosen
 If necessary, we can use Swift and Object C together
 
+----------------------------------------------------------------------------------------------------------------
 FUTURE PLAN
 1 be familiar with the two demos(API kits):
 1) Flickr server
