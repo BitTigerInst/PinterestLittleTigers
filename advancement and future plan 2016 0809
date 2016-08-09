@@ -1,0 +1,25 @@
+
+ADVANCEMENT
+1 the following layouts have been designed
+1) search scenario
+2) user scenario
+3) setting scenario
+
+2 some demos have been run successfully, meaning that we have fetched photos from the Flickr server
+1) SwiftFlickrSearch
+search photos from flickr server and display them
+2) FlickrKit\DemoProject\FlickrKitSwiftDemo (FlickrKit is an API Kit, facilitating call Flickr APIs more easily)
+login to Flickr server using Yahoo account, and then view the everyday recommended pictures
+
+3 the swift language is choosen
+If necessary, we can use Swift and Object together
+
+FUTURE PLAN
+1 be familiar with the two demos(API kits):
+1) Flickr server
+2) FlickrKit
+
+2 design infinite scolling
+
+3 desing user database
+
