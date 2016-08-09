@@ -177,7 +177,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dHr-tk-HsD" kind="show" id="aUT-df-hxe"/>
+                                    <segue destination="dHr-tk-HsD" kind="presentation" modalTransitionStyle="crossDissolve" id="aUT-df-hxe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHN-Wh-ejf">
@@ -190,7 +190,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YlW-rd-Cdq" kind="show" id="QFP-Ae-cil"/>
+                                    <segue destination="YlW-rd-Cdq" kind="presentation" modalTransitionStyle="crossDissolve" id="QFP-Ae-cil"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvp-r0-UAr">
@@ -226,10 +226,10 @@
             </objects>
             <point key="canvasLocation" x="731" y="339"/>
         </scene>
-        <!--View Controller-->
+        <!--Account View Controller-->
         <scene sceneID="WyU-Zk-f7w">
             <objects>
-                <viewController id="dHr-tk-HsD" sceneMemberID="viewController">
+                <viewController id="dHr-tk-HsD" customClass="AccountViewController" customModule="MyPinterest_LittleTiger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mIB-uT-8OC"/>
                         <viewControllerLayoutGuide type="bottom" id="N1s-Kw-Ylo"/>
@@ -238,16 +238,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3po-6Y-X1u">
-                                <rect key="frame" x="73" y="76" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvm-OT-SAZ">
+                                <rect key="frame" x="0.0" y="38" width="600" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Edit Account" id="oYc-Pe-DvY">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="xQ5-Gz-Sa5">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Gb-63-Ty2">
+                                                <rect key="frame" x="20" y="7" width="133" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="返回"/>
+                                                <connections>
+                                                    <action selector="backClicked:" destination="dHr-tk-HsD" eventType="touchUpInside" id="RGW-AX-fQa"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerY" secondItem="brj-HW-aU3" secondAttribute="centerY" constant="-240" id="jX5-PO-AEx"/>
+                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerX" secondItem="brj-HW-aU3" secondAttribute="centerX" id="zXu-us-vSy"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="2Jl-qh-Oxi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUp-J8-seV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -264,12 +279,25 @@
                     <view key="view" contentMode="scaleToFill" id="1X6-AX-lto">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIV-OJ-1id">
+                                <rect key="frame" x="0.0" y="38" width="600" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Edit Profile" id="hIo-N6-qIF"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerX" secondItem="1X6-AX-lto" secondAttribute="centerX" id="Puh-KC-KtE"/>
+                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerY" secondItem="1X6-AX-lto" secondAttribute="centerY" constant="-240" id="rfa-gs-clr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMl-ZB-bS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1424" y="641"/>
+            <point key="canvasLocation" x="1452" y="599"/>
         </scene>
         <!--Search-->
         <scene sceneID="ymh-pw-8x9">

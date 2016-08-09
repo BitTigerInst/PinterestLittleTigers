@@ -15,6 +15,7 @@
 		E13446841D5085E100E21405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13446821D5085E100E21405 /* LaunchScreen.storyboard */; };
 		E134468F1D5085E100E21405 /* MyPinterest_LittleTigerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134468E1D5085E100E21405 /* MyPinterest_LittleTigerTests.swift */; };
 		E134469A1D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446991D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift */; };
+		F77DF2371D5985D300FFA958 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF2361D5985D300FFA958 /* AccountViewController.swift */; };
 		F785567F1D58336000354B3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785567E1D58336000354B3B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		E13446951D5085E100E21405 /* MyPinterest_LittleTigerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPinterest_LittleTigerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13446991D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPinterest_LittleTigerUITests.swift; sourceTree = "<group>"; };
 		E134469B1D5085E100E21405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77DF2361D5985D300FFA958 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		F785567E1D58336000354B3B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				E134467D1D5085E000E21405 /* Main.storyboard */,
 				E13446801D5085E000E21405 /* Assets.xcassets */,
 				E13446821D5085E100E21405 /* LaunchScreen.storyboard */,
+				F77DF2361D5985D300FFA958 /* AccountViewController.swift */,
 				E13446851D5085E100E21405 /* Info.plist */,
 			);
 			path = MyPinterest_LittleTiger;
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					E13446731D5085E000E21405 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HUXB96ATAK;
 					};
 					E13446891D5085E100E21405 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -263,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E134467C1D5085E000E21405 /* SettingsViewController.swift in Sources */,
+				F77DF2371D5985D300FFA958 /* AccountViewController.swift in Sources */,
 				E13446781D5085E000E21405 /* AppDelegate.swift in Sources */,
 				F785567F1D58336000354B3B /* SearchViewController.swift in Sources */,
 				E134467A1D5085E000E21405 /* UserViewController.swift in Sources */,
@@ -409,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyPinterest_LittleTiger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cmu.bittiger.MyPinterest-LittleTiger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyPinterest_LittleTiger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.cmu.bittiger.MyPinterest-LittleTiger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
