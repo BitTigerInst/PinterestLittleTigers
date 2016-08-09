@@ -18,7 +18,7 @@ see the fundamentals of swift here: https://developer.apple.com/library/prerelea
 
 4 some familiarity with the two demos(API kits):
 1) SwiftFlickrSearch
-2) FlickrKit
+2) FlickrKit(installation completed, though without testing its function)
 how to use FlickrKit via Cocoapods
 (1) install command line developer tools for Xcode(before installing Cocoapods)
 (2) install Cocoapods(before installing FlickrKit)
