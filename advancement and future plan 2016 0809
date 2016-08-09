@@ -22,7 +22,7 @@ see the fundamentals of swift here: https://developer.apple.com/library/prerelea
 how to use FlickrKit via Cocoapods
 (1) install command line developer tools for Xcode(before installing Cocoapods)
 (2) install Cocoapods(before installing FlickrKit)
-(3) update to the lastest ruby
+(3) update to the ruby(2.2.2)
 (4) install FlickrKit(using Cocoapods Installation)
 
 ----------------------------------------------------------------------------------------------------------------
