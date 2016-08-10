@@ -1,5 +1,5 @@
 
-# H1. Heading infinite scrolling(design and coding)
+# infinite scrolling(design and coding)
 
 ## 1 UI
 Generally, the infinite scrolling page consists of two parts:  
