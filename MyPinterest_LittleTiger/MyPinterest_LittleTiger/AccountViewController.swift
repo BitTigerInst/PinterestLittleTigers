@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class AccountViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -20,8 +21,10 @@ class AccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+   
+
     @IBAction func backClicked(sender: AnyObject) {
+
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 }

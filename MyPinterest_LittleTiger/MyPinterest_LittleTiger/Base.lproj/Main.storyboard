@@ -159,7 +159,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gl-LM-0qf">
-                                <rect key="frame" x="265" y="50" width="71" height="21"/>
+                                <rect key="frame" x="265" y="30" width="71" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1Gl-LM-0qf" secondAttribute="height" multiplier="71:21" id="OyR-M6-Pps"/>
                                 </constraints>
@@ -168,7 +168,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eV5-pp-cbO">
-                                <rect key="frame" x="10" y="95" width="94" height="30"/>
+                                <rect key="frame" x="20" y="58" width="94" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eV5-pp-cbO" secondAttribute="height" multiplier="37:10" id="j1L-3A-i0S"/>
                                 </constraints>
@@ -181,7 +181,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHN-Wh-ejf">
-                                <rect key="frame" x="10" y="121" width="81" height="30"/>
+                                <rect key="frame" x="20" y="84" width="81" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eHN-Wh-ejf" secondAttribute="height" multiplier="8:3" id="kF2-oO-Bjm"/>
                                 </constraints>
@@ -194,7 +194,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvp-r0-UAr">
-                                <rect key="frame" x="10" y="183" width="55" height="30"/>
+                                <rect key="frame" x="20" y="146" width="55" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mvp-r0-UAr" secondAttribute="height" multiplier="61:30" id="Fsb-hk-RaS"/>
                                 </constraints>
@@ -204,7 +204,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugI-bk-4x5">
-                                <rect key="frame" x="10" y="159" width="62" height="30"/>
+                                <rect key="frame" x="20" y="122" width="62" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ugI-bk-4x5" secondAttribute="height" multiplier="31:15" id="53w-XV-qdU"/>
                                 </constraints>
@@ -216,7 +216,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1Gl-LM-0qf" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-240" id="0tl-mT-NbZ"/>
+                            <constraint firstItem="1Gl-LM-0qf" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" constant="-260" id="0tl-mT-NbZ"/>
                             <constraint firstItem="1Gl-LM-0qf" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="lqh-Bw-s8W"/>
                         </constraints>
                     </view>
@@ -224,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="339"/>
+            <point key="canvasLocation" x="750" y="334"/>
         </scene>
         <!--Account View Controller-->
         <scene sceneID="WyU-Zk-f7w">
@@ -239,34 +239,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvm-OT-SAZ">
-                                <rect key="frame" x="0.0" y="38" width="600" height="44"/>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="37" width="600" height="44"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Edit Account" id="oYc-Pe-DvY">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="xQ5-Gz-Sa5">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Gb-63-Ty2">
-                                                <rect key="frame" x="20" y="7" width="133" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="返回"/>
-                                                <connections>
-                                                    <action selector="backClicked:" destination="dHr-tk-HsD" eventType="touchUpInside" id="RGW-AX-fQa"/>
-                                                </connections>
-                                            </button>
-                                        </barButtonItem>
+                                        <barButtonItem key="backBarButtonItem" title="abc" id="73h-ru-H76"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerY" secondItem="brj-HW-aU3" secondAttribute="centerY" constant="-240" id="jX5-PO-AEx"/>
+                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerY" secondItem="brj-HW-aU3" secondAttribute="centerY" constant="-255" id="jX5-PO-AEx"/>
                             <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerX" secondItem="brj-HW-aU3" secondAttribute="centerX" id="zXu-us-vSy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Account" destination="gvm-OT-SAZ" id="R9T-cW-2jV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUp-J8-seV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1452" y="-41"/>
+            <point key="canvasLocation" x="1446" y="-57"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b4E-kV-fas">
@@ -281,7 +275,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIV-OJ-1id">
-                                <rect key="frame" x="0.0" y="38" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="18" width="600" height="44"/>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <items>
                                     <navigationItem title="Edit Profile" id="hIo-N6-qIF"/>
@@ -291,13 +285,58 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nIV-OJ-1id" firstAttribute="centerX" secondItem="1X6-AX-lto" secondAttribute="centerX" id="Puh-KC-KtE"/>
-                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerY" secondItem="1X6-AX-lto" secondAttribute="centerY" constant="-240" id="rfa-gs-clr"/>
+                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerY" secondItem="1X6-AX-lto" secondAttribute="centerY" constant="-260" id="rfa-gs-clr"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMl-ZB-bS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1452" y="599"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="WRq-Jp-pMe">
+            <objects>
+                <tableViewController id="T7y-B3-tBF" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="270-Tu-0Jd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="nSH-3k-P5h">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nSH-3k-P5h" id="ElQ-4N-W3t">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="T7y-B3-tBF" id="VvG-t8-Ydn"/>
+                            <outlet property="delegate" destination="T7y-B3-tBF" id="wIN-ta-TKT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="PMT-tQ-id9"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Udi-7c-F7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1220" y="1723"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dTn-0H-btN">
+            <objects>
+                <navigationController id="bd2-Fm-PBy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hud-Ep-IqC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="T7y-B3-tBF" kind="relationship" relationship="rootViewController" id="IxO-Ii-ZcU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdK-Ua-xFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="400" y="1723"/>
         </scene>
         <!--Search-->
         <scene sceneID="ymh-pw-8x9">
