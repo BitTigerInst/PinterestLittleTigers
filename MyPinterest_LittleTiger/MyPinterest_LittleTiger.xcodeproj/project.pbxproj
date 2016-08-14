@@ -18,6 +18,8 @@
 		F77DF2391D60113500FFA958 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF2381D60113500FFA958 /* AccountViewController.swift */; };
 		F77DF23B1D60175600FFA958 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF23A1D60175600FFA958 /* LogInViewController.swift */; };
 		F77DF23D1D60223800FFA958 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF23C1D60223800FFA958 /* ProfileViewController.swift */; };
+		F77DF23F1D605E5F00FFA958 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF23E1D605E5F00FFA958 /* SignUpViewController.swift */; };
+		F77DF2431D6068D300FFA958 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF2421D6068D300FFA958 /* HelpViewController.swift */; };
 		F785567F1D58336000354B3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785567E1D58336000354B3B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		F77DF2381D60113500FFA958 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		F77DF23A1D60175600FFA958 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		F77DF23C1D60223800FFA958 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F77DF23E1D605E5F00FFA958 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F77DF2421D6068D300FFA958 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		F785567E1D58336000354B3B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +118,10 @@
 				E134467D1D5085E000E21405 /* Main.storyboard */,
 				E13446801D5085E000E21405 /* Assets.xcassets */,
 				E13446821D5085E100E21405 /* LaunchScreen.storyboard */,
+				F77DF2421D6068D300FFA958 /* HelpViewController.swift */,
 				E13446851D5085E100E21405 /* Info.plist */,
 				F77DF23A1D60175600FFA958 /* LogInViewController.swift */,
+				F77DF23E1D605E5F00FFA958 /* SignUpViewController.swift */,
 				F77DF2381D60113500FFA958 /* AccountViewController.swift */,
 				F77DF23C1D60223800FFA958 /* ProfileViewController.swift */,
 			);
@@ -274,7 +280,9 @@
 			files = (
 				E134467C1D5085E000E21405 /* SettingsViewController.swift in Sources */,
 				F77DF2391D60113500FFA958 /* AccountViewController.swift in Sources */,
+				F77DF23F1D605E5F00FFA958 /* SignUpViewController.swift in Sources */,
 				F77DF23B1D60175600FFA958 /* LogInViewController.swift in Sources */,
+				F77DF2431D6068D300FFA958 /* HelpViewController.swift in Sources */,
 				E13446781D5085E000E21405 /* AppDelegate.swift in Sources */,
 				F77DF23D1D60223800FFA958 /* ProfileViewController.swift in Sources */,
 				F785567F1D58336000354B3B /* SearchViewController.swift in Sources */,
