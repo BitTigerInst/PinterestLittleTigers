@@ -17,6 +17,7 @@
 		E134469A1D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446991D5085E100E21405 /* MyPinterest_LittleTigerUITests.swift */; };
 		F77DF2391D60113500FFA958 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF2381D60113500FFA958 /* AccountViewController.swift */; };
 		F77DF23B1D60175600FFA958 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF23A1D60175600FFA958 /* LogInViewController.swift */; };
+		F77DF23D1D60223800FFA958 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77DF23C1D60223800FFA958 /* ProfileViewController.swift */; };
 		F785567F1D58336000354B3B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785567E1D58336000354B3B /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		E134469B1D5085E100E21405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77DF2381D60113500FFA958 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		F77DF23A1D60175600FFA958 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F77DF23C1D60223800FFA958 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F785567E1D58336000354B3B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				E13446851D5085E100E21405 /* Info.plist */,
 				F77DF23A1D60175600FFA958 /* LogInViewController.swift */,
 				F77DF2381D60113500FFA958 /* AccountViewController.swift */,
+				F77DF23C1D60223800FFA958 /* ProfileViewController.swift */,
 			);
 			path = MyPinterest_LittleTiger;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				F77DF2391D60113500FFA958 /* AccountViewController.swift in Sources */,
 				F77DF23B1D60175600FFA958 /* LogInViewController.swift in Sources */,
 				E13446781D5085E000E21405 /* AppDelegate.swift in Sources */,
+				F77DF23D1D60223800FFA958 /* ProfileViewController.swift in Sources */,
 				F785567F1D58336000354B3B /* SearchViewController.swift in Sources */,
 				E134467A1D5085E000E21405 /* UserViewController.swift in Sources */,
 			);
