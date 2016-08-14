@@ -24,7 +24,6 @@ class AccountViewController: UIViewController {
    
 
     @IBAction func backClicked(sender: AnyObject) {
-
         self.dismissViewControllerAnimated(true, completion: nil)
     }
 }
