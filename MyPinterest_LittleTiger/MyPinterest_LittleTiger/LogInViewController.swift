@@ -1,5 +1,5 @@
 //
-//  AccountViewController.swift
+//  LogInViewController.swift
 //  MyPinterest_LittleTiger
 //
 //  Created by 吴耀洪 on 16/8/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountViewController: UIViewController {
+class LogInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,4 @@ class AccountViewController: UIViewController {
     }
     
     
-    @IBAction func backClicked(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
 }
-

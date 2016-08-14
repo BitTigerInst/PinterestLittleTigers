@@ -146,6 +146,33 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
+        <!--Account View Controller-->
+        <scene sceneID="BeG-6Q-UT8">
+            <objects>
+                <viewController id="4gc-eJ-IUV" customClass="AccountViewController" customModule="MyPinterest_LittleTiger" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="omc-1w-1tc"/>
+                        <viewControllerLayoutGuide type="bottom" id="LkC-xE-RZp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FML-sE-Ovn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALy-6j-nuf">
+                                <rect key="frame" x="8" y="0.0" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backClicked:" destination="4gc-eJ-IUV" eventType="touchUpInside" id="TPm-im-fTc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rcj-PT-Azv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1452" y="-168"/>
+        </scene>
         <!--Settings-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -177,7 +204,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dHr-tk-HsD" kind="presentation" modalTransitionStyle="crossDissolve" id="aUT-df-hxe"/>
+                                    <segue destination="4gc-eJ-IUV" kind="presentation" modalTransitionStyle="crossDissolve" id="HNd-RC-zY7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHN-Wh-ejf">
@@ -226,42 +253,6 @@
             </objects>
             <point key="canvasLocation" x="750" y="334"/>
         </scene>
-        <!--Account View Controller-->
-        <scene sceneID="WyU-Zk-f7w">
-            <objects>
-                <viewController id="dHr-tk-HsD" customClass="AccountViewController" customModule="MyPinterest_LittleTiger" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mIB-uT-8OC"/>
-                        <viewControllerLayoutGuide type="bottom" id="N1s-Kw-Ylo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="brj-HW-aU3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvm-OT-SAZ">
-                                <rect key="frame" x="0.0" y="37" width="600" height="44"/>
-                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Edit Account" id="oYc-Pe-DvY">
-                                        <barButtonItem key="backBarButtonItem" title="abc" id="73h-ru-H76"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerY" secondItem="brj-HW-aU3" secondAttribute="centerY" constant="-255" id="jX5-PO-AEx"/>
-                            <constraint firstItem="gvm-OT-SAZ" firstAttribute="centerX" secondItem="brj-HW-aU3" secondAttribute="centerX" id="zXu-us-vSy"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="Account" destination="gvm-OT-SAZ" id="R9T-cW-2jV"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qUp-J8-seV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1446" y="-57"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="b4E-kV-fas">
             <objects>
@@ -274,19 +265,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nIV-OJ-1id">
-                                <rect key="frame" x="0.0" y="18" width="600" height="44"/>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <navigationItem title="Edit Profile" id="hIo-N6-qIF"/>
-                                </items>
-                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mK-dN-Tu6">
+                                <rect key="frame" x="15" y="0.0" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerX" secondItem="1X6-AX-lto" secondAttribute="centerX" id="Puh-KC-KtE"/>
-                            <constraint firstItem="nIV-OJ-1id" firstAttribute="centerY" secondItem="1X6-AX-lto" secondAttribute="centerY" constant="-260" id="rfa-gs-clr"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMl-ZB-bS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -312,10 +296,10 @@
             </objects>
             <point key="canvasLocation" x="95" y="1053"/>
         </scene>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="4vz-1O-spp">
             <objects>
-                <viewController id="wmt-ag-kVx" sceneMemberID="viewController">
+                <viewController id="wmt-ag-kVx" customClass="LogInViewController" customModule="MyPinterest_LittleTiger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Blw-s0-PtG"/>
                         <viewControllerLayoutGuide type="bottom" id="Hrl-yV-OQC"/>
