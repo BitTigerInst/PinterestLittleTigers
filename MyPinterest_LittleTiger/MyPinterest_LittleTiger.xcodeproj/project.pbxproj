@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DF3D7D21D65249900E5A6A4 /* pLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3D7D11D65249900E5A6A4 /* pLogo.png */; };
 		E13446781D5085E000E21405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446771D5085E000E21405 /* AppDelegate.swift */; };
 		E134467A1D5085E000E21405 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13446791D5085E000E21405 /* UserViewController.swift */; };
 		E134467C1D5085E000E21405 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E134467B1D5085E000E21405 /* SettingsViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DF3D7D11D65249900E5A6A4 /* pLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pLogo.png; sourceTree = "<group>"; };
 		E13446741D5085E000E21405 /* MyPinterest_LittleTiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPinterest_LittleTiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13446771D5085E000E21405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E13446791D5085E000E21405 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DF3D7D01D65231A00E5A6A4 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3D7D11D65249900E5A6A4 /* pLogo.png */,
+			);
+			name = pics;
+			sourceTree = "<group>";
+		};
 		E134466B1D5085E000E21405 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		E13446761D5085E000E21405 /* MyPinterest_LittleTiger */ = {
 			isa = PBXGroup;
 			children = (
+				4DF3D7D01D65231A00E5A6A4 /* pics */,
 				E13446771D5085E000E21405 /* AppDelegate.swift */,
 				E13446791D5085E000E21405 /* UserViewController.swift */,
 				F785567E1D58336000354B3B /* SearchViewController.swift */,
@@ -252,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E13446841D5085E100E21405 /* LaunchScreen.storyboard in Resources */,
+				4DF3D7D21D65249900E5A6A4 /* pLogo.png in Resources */,
 				E13446811D5085E000E21405 /* Assets.xcassets in Resources */,
 				E134467F1D5085E000E21405 /* Main.storyboard in Resources */,
 			);
