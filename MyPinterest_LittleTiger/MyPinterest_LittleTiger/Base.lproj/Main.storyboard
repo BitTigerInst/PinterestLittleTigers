@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wmt-ag-kVx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wmt-ag-kVx">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -611,13 +611,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySc-Bb-esR">
-                                <rect key="frame" x="195" y="205" width="41" height="21"/>
+                                <rect key="frame" x="195" y="264" width="41" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vLs-QB-xS8">
-                                <rect key="frame" x="244" y="201" width="150" height="30"/>
+                                <rect key="frame" x="244" y="259" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vLs-QB-xS8" secondAttribute="height" multiplier="5:1" id="aBY-SK-tFB"/>
                                 </constraints>
@@ -632,13 +632,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j02-Ux-Ixu">
-                                <rect key="frame" x="179" y="266" width="57" height="21"/>
+                                <rect key="frame" x="179" y="323" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2Ba-Do-VRg">
-                                <rect key="frame" x="246" y="262" width="117" height="29"/>
+                                <rect key="frame" x="246" y="319" width="117" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2Ba-Do-VRg" secondAttribute="height" multiplier="117:28" id="Kih-Yr-uhf"/>
                                 </constraints>
@@ -649,34 +649,62 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdg-de-j5u">
-                                <rect key="frame" x="263" y="321" width="74" height="30"/>
+                                <rect key="frame" x="263" y="393" width="74" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="bottonClicked:" destination="cfc-i6-okL" eventType="touchUpInside" id="oGS-Sg-vwc"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs2-Eb-8Zp">
+                                <rect key="frame" x="152" y="205" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8ht-3d-08J">
+                                <rect key="frame" x="244" y="200" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8ht-3d-08J" secondAttribute="height" multiplier="5:1" id="N1b-Xz-gK4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8ht-3d-08J" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="19" id="Aat-jk-g6h"/>
                             <constraint firstItem="ySc-Bb-esR" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="-84" id="Eoa-oz-vin"/>
+                            <constraint firstItem="vs2-Eb-8Zp" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="-106" id="LuH-4f-WjX"/>
                             <constraint firstItem="ewg-DX-e7p" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-260" id="LzT-nZ-mkT"/>
-                            <constraint firstItem="j02-Ux-Ixu" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-24" id="N5z-U9-4og"/>
+                            <constraint firstItem="j02-Ux-Ixu" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="33" id="N5z-U9-4og"/>
                             <constraint firstItem="kdg-de-j5u" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" id="QAe-t6-wm2"/>
                             <constraint firstItem="vLs-QB-xS8" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="19" id="Sed-A1-iRm"/>
                             <constraint firstItem="Drd-AW-9N6" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="19" id="Ss3-R9-Cyd"/>
                             <constraint firstItem="j02-Ux-Ixu" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="-92" id="T3V-QC-SYU"/>
+                            <constraint firstItem="vs2-Eb-8Zp" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-85" id="VBA-F2-LcR"/>
                             <constraint firstItem="cEj-2R-imH" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-144" id="VMC-7L-EnP"/>
-                            <constraint firstItem="ySc-Bb-esR" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-84" id="awp-Oa-PZ6"/>
-                            <constraint firstItem="2Ba-Do-VRg" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-24" id="hbD-Jf-iwO"/>
+                            <constraint firstItem="ySc-Bb-esR" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-26" id="awp-Oa-PZ6"/>
+                            <constraint firstItem="2Ba-Do-VRg" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="33" id="hbD-Jf-iwO"/>
+                            <constraint firstItem="8ht-3d-08J" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-85" id="kK0-U4-lpQ"/>
                             <constraint firstItem="toS-77-67B" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-204" id="oP2-8h-vko"/>
                             <constraint firstItem="1ZW-mC-EGh" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="19" id="pNu-X9-eWe"/>
                             <constraint firstItem="toS-77-67B" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="-107" id="qtP-Wr-X0e"/>
                             <constraint firstItem="2Ba-Do-VRg" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="4" id="s9G-Dc-yhJ"/>
-                            <constraint firstItem="kdg-de-j5u" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="36" id="t5S-Yz-URJ"/>
-                            <constraint firstItem="vLs-QB-xS8" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-84" id="u1N-cS-ucB"/>
+                            <constraint firstItem="kdg-de-j5u" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="108" id="t5S-Yz-URJ"/>
+                            <constraint firstItem="vLs-QB-xS8" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-26" id="u1N-cS-ucB"/>
                             <constraint firstItem="1ZW-mC-EGh" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-203" id="vLO-rK-KZo"/>
                             <constraint firstItem="Drd-AW-9N6" firstAttribute="centerY" secondItem="mml-qZ-aVQ" secondAttribute="centerY" constant="-144" id="wki-ir-U49"/>
                             <constraint firstItem="cEj-2R-imH" firstAttribute="centerX" secondItem="mml-qZ-aVQ" secondAttribute="centerX" constant="-101" id="ytu-fA-NxL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="vLs-QB-xS8" id="teO-4J-FC9"/>
+                        <outlet property="gender" destination="2Ba-Do-VRg" id="tvu-jJ-Obs"/>
+                        <outlet property="name" destination="8ht-3d-08J" id="mLt-6Y-C3x"/>
+                        <outlet property="password" destination="Drd-AW-9N6" id="JTi-EJ-aMJ"/>
+                        <outlet property="usernameText" destination="1ZW-mC-EGh" id="rLd-Qj-UFS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s7p-8Y-Qe7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

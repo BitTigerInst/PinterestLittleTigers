@@ -2,7 +2,7 @@
 //  SearchViewController.swift
 //  MyPinterest_LittleTiger
 //
-//  Created by 吴耀洪 on 16/8/8.
+//  Created by Qianyu on 16/8/8.
 //  Modified by John Zhou 
 //  Copyright © 2016年 Carnegie Mellon University. All rights reserved.
 //

@@ -2,7 +2,7 @@
 //  AccountViewController.swift
 //  MyPinterest_LittleTiger
 //
-//  Created by 吴耀洪 on 16/8/14.
+//  Created by Qianyu on 16/8/14.
 //  Copyright © 2016年 Carnegie Mellon University. All rights reserved.
 //
 
