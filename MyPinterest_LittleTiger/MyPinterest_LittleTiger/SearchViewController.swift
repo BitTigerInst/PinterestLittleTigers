@@ -9,6 +9,8 @@
 
 
 import UIKit
+import FlickrKitFramework
+
 
 class SearchViewController: UIViewController {
     
